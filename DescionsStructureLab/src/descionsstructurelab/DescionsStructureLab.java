@@ -25,15 +25,22 @@ public class DescionsStructureLab {
         System.out.printf("Please enter your SAT score....  ");
         int score = kb.nextInt();
             if(score >= 1340) {
-                System.out.println("You can go to colleges like Harvard or Standford.\n");
+                System.out.println("You can go to colleges like Harvard or "
+                        + "Standford.\n");
             }else if(score >= 1200){
-                System.out.println("You can go to colleges like New York University.\n");
+                System.out.println("You can go to colleges like New York "
+                        + "University.\n");
             }else if(score >= 1030){
-                System.out.println("You can go to colleges like UT or Penn State.\n");
+                System.out.println("You can go to colleges like UT or Penn "
+                        + "State.\n");
             }else if(score >= 830){
-                System.out.println("You can go to colleges like High Point or Arizona State.\n");
+                System.out.println("You can go to colleges like High Point or "
+                        + "Arizona State.\n");
             }else if(score <830){
-                System.out.println("You can go to colleges like Prairie View A & M University.\n");
+                System.out.println("You can go to colleges like Prairie View "
+                        + "A & M University.\n");
+            }else if(score <830){
+                System.out.println("You can go to colleges like lonestar.\n");
         }
     } else {
         System.out.println("Have a good day.");
